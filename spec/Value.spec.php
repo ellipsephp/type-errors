@@ -254,13 +254,13 @@ describe('Value', function () {
 
                     it('should return the object class name', function () {
 
-                        $object = new StdClass;
+                        $object = new stdClass;
 
                         $value = new Value($object);
 
                         $test = $value->type();
 
-                        expect($test)->toEqual(get_class($object));
+                        expect($test)->toEqual(stdClass::class);
 
                     });
 
