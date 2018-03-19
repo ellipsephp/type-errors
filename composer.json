@@ -1,7 +1,7 @@
 {
     "name": "ellipse/type-errors",
     "type": "library",
-    "description": "Common classes for formatting type error messages",
+    "description": "Common classes for formatting type error notices",
     "keywords": [
         "type",
         "error",
@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ellipse\\": "src"
+            "Ellipse\\Exceptions\\": "src"
         }
     }
 }
