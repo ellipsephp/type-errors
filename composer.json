@@ -1,7 +1,7 @@
 {
     "name": "ellipse/type-errors",
     "type": "library",
-    "description": "Common classes for formatting type error notices",
+    "description": "Common classes for type error messages formatting",
     "keywords": [
         "type",
         "error",
