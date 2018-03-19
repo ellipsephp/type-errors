@@ -1,0 +1,34 @@
+{
+    "name": "ellipse/type-errors",
+    "type": "library",
+    "description": "Common classes for formatting type error messages",
+    "keywords": [
+        "type",
+        "error",
+        "exception"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/ellipsephp/type-errors",
+    "support": {
+        "issues": "https://github.com/ellipsephp/type-errors/issues",
+        "source": "https://github.com/ellipsephp/type-errors"
+    },
+    "authors": [
+        {
+            "name": "Pierre Mallinjoud",
+            "email": "pierre.mallinjoud@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "kahlan/kahlan": "^4.0",
+        "eloquent/phony-kahlan": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ellipse\\": "src"
+        }
+    }
+}
